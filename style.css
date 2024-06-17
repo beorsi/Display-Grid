@@ -261,7 +261,7 @@ ul {
     color: black;
     font-weight: 600;
     z-index: 1;
-    top: 18.8%;
+    top: 19.8%;
 }
 #menuInv:hover{
     cursor: pointer;
@@ -273,5 +273,9 @@ ul {
 #barraPesquisa{
     background-color: aqua;
     width: 67%;
+    height: 65%;
     grid-column: 3/6;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
 }
