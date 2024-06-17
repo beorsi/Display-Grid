@@ -343,5 +343,32 @@ ul {
     font-weight: 900;
 }
 #banner{
-    grid: ;
+    grid-column: 3/6;
+    grid-row: 3/4;
+    background-image: url(img/banner.jpg);
+}
+#textoB{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+#Fruit{
+    color: #7fad39;
+    font-weight: 900;
+}
+#gigante{
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+#subT{
+    color: #6f6f6f;
+}
+#btn2{
+    background-color: #7fad39;
+    width: 140px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-weight: 800;
 }
