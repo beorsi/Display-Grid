@@ -129,7 +129,7 @@ ul {
     width: 100%;
     height: 100vh;
     grid-template-columns: 1.5fr 1.3fr 1.4fr 1fr 1.3fr 1.3fr ;
-    grid-template-rows: 80px 80px 431px 431px ;
+    grid-template-rows: 80px 80px 431px 300px ;
 
 }
 #sub {
@@ -245,7 +245,7 @@ ul {
     display: flex;
     align-items: center;
     height: 50px;
-    padding-left: 50px;
+    padding-left: 40px;
 
 }
 #menuVerde:hover{
@@ -371,4 +371,116 @@ ul {
     text-align: center;
     align-content: center;
     font-weight: 800;
+}
+#baseL{
+    grid-row: 4;
+    grid-column: 1;
+    text-align: end;
+    align-content: center;
+    margin-right: 5%;
+}
+#lateral{
+    border: 1px solid #6f6f6f;
+    margin-left: 92%;
+    padding-right: 7px;
+    height: 60px;
+    align-content: center;
+}
+#lateral2{
+    border: 1px solid #6f6f6f;
+    margin-right: 92%;
+    padding-left: 7px;
+    height: 60px;
+    align-content: center;
+}
+#lateral:hover{
+    cursor: pointer;
+}
+#lateral2:hover{
+    cursor: pointer;
+}
+#baseL2{
+    grid-row: 4;
+    grid-column: 6;
+    text-align: start;
+    align-content: center;
+    margin-right: 5%;
+}
+#produto1{
+    margin-top: 10%;
+    background-image: url(img/cat-2.jpg);
+    background-repeat: no-repeat;
+    grid-column: 2;
+    text-align: center;
+    align-content: end;
+}
+.produto1{
+    background-color: white;
+    height: 40px;
+    width: 70%;
+    margin-bottom: 7%;
+    margin-left: 10%;
+    font-weight: 700;
+    font-size: 18px;
+}
+.produto{
+    background-color: white;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 7%;
+    margin-left: 17%;
+    font-weight: 700;
+    font-size: 18px;
+}
+#produto2{
+    margin-top: 10%;
+    background-image: url(img/cat-3.jpg);
+    background-repeat: no-repeat;
+    grid-column: 3;
+    text-align: center;
+    align-content: end;
+}
+.produto2{
+    background-color: white;
+    height: 40px;
+    width: 60%;
+    margin-bottom: 7%;
+    margin-left: 10%;
+    font-weight: 700;
+    font-size: 18px;
+}
+#produto3{
+    margin-top: 15%;
+    background-image: url(img/cat-4.jpg);
+    background-repeat: no-repeat;
+    grid-column: 4;
+    text-align: center;
+    align-content: end;
+}
+.produto3{
+    background-color: white;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 7%;
+    margin-left: 10%;
+    font-weight: 700;
+    font-size: 18px;
+}
+#produto4{
+    margin-left: 9%;
+    margin-top: 10%;
+    background-image: url(img/cat-5.jpg);
+    background-repeat: no-repeat;
+    grid-column: 5;
+    text-align: center;
+    align-content: end;
+}
+.produto4{
+    background-color: white;
+    height: 40px;
+    width: 75%;
+    margin-bottom: 7%;
+    margin-left: 10%;
+    font-weight: 700;
+    font-size: 18px;
 }
