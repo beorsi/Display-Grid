@@ -128,9 +128,9 @@ ul {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-columns: 1.3fr 1.3fr 1fr 1fr 1.3fr 1.3fr ;
+    grid-template-columns: 1.5fr 1.3fr 1.4fr 1fr 1.3fr 1.3fr ;
     grid-template-rows: 80px 80px 431px 431px ;
-    border: solid 1px black;
+
 }
 #sub {
     padding-top: 18px;
@@ -138,9 +138,7 @@ ul {
     line-height: 3;
     grid-column: 2/6;
 }
-#logo{
-    margin-left: 1%;
-}
+
 .paginas{
     font-weight: bold;
 }
@@ -228,40 +226,45 @@ ul {
 
 #menuV{
     background-color: #7fad39;
-    width: 70%;
+    width: 79%;
     height: 50px;
-    align-content: center;
     color: white;
     font-weight: bold;
     grid-column: 2;
     grid-row: 2/4;
+    align-content: center;
 }
 #baixo2{
     font-size: 12px;
 }
 #espaço3{
-    width: 18%;
+    width: 17%;
 }
 #menuVerde{
+    text-align: center;
     display: flex;
     align-items: center;
     height: 50px;
+    padding-left: 50px;
+
 }
 #menuVerde:hover{
     cursor: pointer;
 }
-
+#barra{
+    padding-right: 6%;
+}
 #menuInv{
     position: absolute;
-    border: beige 1px solid;
+    border: rgba(170, 167, 167, 0.726) 1px solid;
     line-height: 2.4;
     height: 425px;
-    width: 11.6%;
+    width: 12%;
     padding-left: 1%;
     color: black;
     font-weight: 600;
     z-index: 1;
-    top: 19.8%;
+    top: 19.4%;
 }
 #menuInv:hover{
     cursor: pointer;
@@ -271,11 +274,71 @@ ul {
     width: 50%;
 }
 #barraPesquisa{
-    background-color: aqua;
-    width: 67%;
+    padding-left: 3%;
+    width: 590px;
     height: 65%;
-    grid-column: 3/6;
+    grid-column: 3/5;
     display: flex;
     align-items: center;
+    border: solid 1px rgba(82, 82, 82, 0.151);
+}
+.bold{
     font-weight: bold;
+    color: black;
+}
+#All{
+    font-size: 16px;
+    padding-right: 6.05%;
+}
+#baixo3{
+    font-size: 10px;
+}
+#busca{
+    height: 40px;
+    width: 308.7px;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    font-family: "Cairo", sans-serif;
+    outline: none;
+    color: #b6b3b3;
+}
+#btn{
+    background-color: #7fad39;
+    width: 100px;
+    height: 55px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+#btn a{
+    color: white;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+}
+#telefone{
+    grid-column: 5;
+    margin-left: 30%;
+    background-color: #e6e3e3;
+    width: 17%;
+    height: 70%;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    color: #7fad39;
+}
+#numero{
+    display: flex;
+}
+#num{
+    margin-left: 6%;
+}
+#fosco{
+    font-size: 14px;
+    color: #4b4a4a;
+}
+#numeroemsi{
+    font-size: 18px;
+    font-weight: 900;
 }
