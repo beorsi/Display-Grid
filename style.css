@@ -535,8 +535,7 @@ ul {
     background-repeat:no-repeat ;
     text-align: center;
     align-content: end;
-    margin-right: 25%;
-    margin-bottom: 20%  ;
+    margin-right: 25%;;
 }
 #produto02{
     background-image: url(img/feature-2.jpg);
@@ -547,7 +546,7 @@ ul {
     text-align: center;
     align-content: end;
     margin-right: 25%;
-    margin-bottom: 20%  ;
+
 }
 #produto03{
     background-image: url(img/feature-3.jpg);
@@ -558,7 +557,7 @@ ul {
     text-align: center;
     align-content: end;
     margin-right: 25%;
-    margin-bottom: 20%  ;
+
 }
 #produto04{
     background-image: url(img/feature-4.jpg);
@@ -569,5 +568,10 @@ ul {
     text-align: center;
     align-content: end;
     margin-right: 25%;
-    margin-bottom: 20%  ;
+
+}
+#hoverGira li{
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 50%;   
 }
