@@ -484,3 +484,90 @@ ul {
     font-weight: 700;
     font-size: 18px;
 }
+#Featured{
+    border: 1px solid;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1.5fr 1.3fr 1.4fr 1.4fr 1.3fr 1.3fr ;
+    grid-template-rows: 100px 80px 400px 400px 600px;
+}
+#TituFeat{
+    grid-column: 1/7;
+    text-align: center;
+    align-content: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.traçoVerde{
+    background-color: #7fad39;
+    margin-left: 48%;
+    margin-right: 47%;
+    height: 5px;
+}
+#tipos{
+    grid-column: 3/5;
+    grid-row: 2;
+    text-align: center;
+    font-size: 16px;
+}
+
+#tipos ul{
+    padding: 0;
+    margin-left: 43px;
+}
+#tipos ul li{
+    margin-left: 40px;
+}
+#tipos ul li:hover{
+    cursor: pointer;
+}
+#traço1{
+    margin-top: 0;
+    margin-left: 12%;
+    margin-right: 84%;
+    height: 2px;
+}
+#produto01{
+    background-image: url(img/cat-5.jpg);
+    background-position-x: 50%;
+    grid-row: 3;
+    grid-column: 2;
+    background-repeat:no-repeat ;
+    text-align: center;
+    align-content: end;
+    margin-right: 25%;
+    margin-bottom: 20%  ;
+}
+#produto02{
+    background-image: url(img/feature-2.jpg);
+    background-position-x: 50%;
+    grid-row: 3;
+    grid-column: 3;
+    background-repeat:no-repeat ;
+    text-align: center;
+    align-content: end;
+    margin-right: 25%;
+    margin-bottom: 20%  ;
+}
+#produto03{
+    background-image: url(img/feature-3.jpg);
+    background-position-x: 50%;
+    grid-row: 3;
+    grid-column: 4;
+    background-repeat:no-repeat ;
+    text-align: center;
+    align-content: end;
+    margin-right: 25%;
+    margin-bottom: 20%  ;
+}
+#produto04{
+    background-image: url(img/feature-4.jpg);
+    background-position-x: 50%;
+    grid-row: 3;
+    grid-column: 5;
+    background-repeat:no-repeat ;
+    text-align: center;
+    align-content: end;
+    margin-right: 25%;
+    margin-bottom: 20%  ;
+}
