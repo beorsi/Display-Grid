@@ -161,6 +161,30 @@ ul {
 #pages{
     margin-left: 5%;
     margin-right: 5%;
+    position: relative;
+}
+#pages:hover{color: #7fad39;}
+#drop{
+    position: absolute;
+    display: block;
+    background-color: black;
+    color: white;
+    opacity: 0;
+    padding: 0;
+    z-index: -99;
+    list-style: none;
+    width: 340%;
+    height: 120px;
+    transition: .3s;
+    top: 50px;
+    padding: 5px 15px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+#pages:hover #drop{
+    opacity: 1;
+    z-index: 21;
+    top: 20px;
 }
 #blog{
     margin-left: 5%;
