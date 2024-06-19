@@ -528,14 +528,12 @@ ul {
     height: 2px;
 }
 #produto01{
-    background-image: url(img/cat-5.jpg);
-    background-position-x: 50%;
     grid-row: 3;
     grid-column: 2;
-    background-repeat:no-repeat ;
     text-align: center;
     align-content: end;
     margin-right: 25%;;
+    position: relative;
 }
 #produto02{
     background-image: url(img/feature-2.jpg);
@@ -569,6 +567,18 @@ ul {
     align-content: end;
     margin-right: 25%;
 
+}
+#hoverGira {
+    position: absolute;
+    top: 65%;
+    z-index: 100;
+    transition: 2s;
+    opacity: 0;
+}
+#produto01:hover #hoverGira{
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
 }
 #hoverGira li{
     background-color: white;
