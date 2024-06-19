@@ -534,7 +534,7 @@ ul {
     border: 1px solid;
     height: 80vh;
     display: grid;
-    grid-template-columns: 1.5fr 1.3fr 1.4fr 1.4fr 1.3fr 1.3fr ;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.3fr ;
     grid-template-rows: 100px 80px 400px 400px 600px;
 }
 #TituFeat{
@@ -574,11 +574,16 @@ ul {
     height: 2px;
 }
 #produto01{
+    border: solid;
+    background-image: url(img/cat-5.jpg);
+    background-repeat:no-repeat ;
+    background-position-x: 50%;
     grid-row: 3;
     grid-column: 2;
     text-align: center;
     align-content: end;
-    margin-right: 25%;;
+    margin-right: 20%;
+    margin-bottom: 60px;
     position: relative;
 }
 #produto02{
@@ -616,9 +621,9 @@ ul {
 }
 #hoverGira {
     position: absolute;
-    top: 65%;
-    z-index: 100;
-    transition: 2s;
+    top: 80%;
+    z-index: -99;
+    transition: .4s;
     opacity: 0;
 }
 #produto01:hover #hoverGira{
@@ -627,7 +632,9 @@ ul {
     opacity: 1;
 }
 #hoverGira li{
-    background-color: white;
-    margin-left: 20px;
+    background-color:aliceblue;
+    margin-left: 30px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;   
 }
