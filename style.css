@@ -163,7 +163,15 @@ ul {
     margin-right: 5%;
     position: relative;
 }
-#pages:hover{color: #7fad39;}
+#pages:hover{
+    color: #7fad39;
+}
+.detalhes{
+    transition: .3s;
+}
+.detalhes:hover{
+    color: #7fad39;
+}
 #drop{
     position: absolute;
     display: block;
