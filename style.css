@@ -743,6 +743,7 @@ ul {
 .hoverGira li:hover {
     background-color: #7fad39;
     color: white;
+    cursor: pointer;
 }
 
 .hoverGira li:hover i {
@@ -827,6 +828,7 @@ ul {
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
+    
 }
 
 #banner1 {
@@ -837,5 +839,5 @@ ul {
     grid-column: 4/6;
 }
 #CarrosselV{
-    
+
 }
