@@ -658,3 +658,13 @@ ul {
     transform: translateY(-400%);
     opacity: 1;
 }
+.hoverGira li:hover{
+    background-color: #7fad39;
+    color: white;
+}
+.hoverGira  li:hover  i{
+    transform: rotate(360deg);
+}
+.hoverGira li i{
+    transition: .3s;
+}
