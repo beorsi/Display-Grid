@@ -124,14 +124,16 @@ ul {
     color: white;
     background-color: black;
 }
-#main{
+
+#main {
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-columns: 1.5fr 1.3fr 1.4fr 1fr 1.3fr 1.3fr ;
-    grid-template-rows: 80px 80px 431px 300px ;
+    grid-template-columns: 1.5fr 1.3fr 1.4fr 1fr 1.3fr 1.3fr;
+    grid-template-rows: 80px 80px 431px 300px;
 
 }
+
 #sub {
     padding-top: 18px;
     display: flex;
@@ -139,40 +141,49 @@ ul {
     grid-column: 2/6;
 }
 
-.paginas{
+.paginas {
     font-weight: bold;
 }
-.paginas:hover{
+
+.paginas:hover {
     color: #7fad39;
     cursor: pointer;
 }
-#paginas{
+
+#paginas {
     display: flex;
     width: 45%;
     grid-column: 3/4;
 }
-#home{
+
+#home {
     margin-right: 5%;
 }
-#shop{
+
+#shop {
     margin-left: 5%;
     margin-right: 5%;
 }
-#pages{
+
+#pages {
     margin-left: 5%;
     margin-right: 5%;
     position: relative;
 }
-#pages:hover{
+
+#pages:hover {
     color: #7fad39;
 }
-.detalhes{
+
+.detalhes {
     transition: .3s;
 }
-.detalhes:hover{
+
+.detalhes:hover {
     color: #7fad39;
 }
-#drop{
+
+#drop {
     position: absolute;
     display: block;
     background-color: black;
@@ -189,51 +200,35 @@ ul {
     font-weight: 500;
     line-height: 1.8;
 }
-#pages:hover #drop{
+
+#pages:hover #drop {
     opacity: 1;
     z-index: 21;
     top: 20px;
 }
-#blog{
+
+#blog {
     margin-left: 5%;
     margin-right: 5%;
 }
-#contact{
+
+#contact {
     margin-left: 5%;
     margin-right: 5%;
 }
-#espaço2{
+
+#espaço2 {
     width: 300px;
 }
-#heart{
-    display: flex;
-    height: 40px;
-    line-height: 3;
-    padding-right: 12px;    
-}
-#salvo{
-    line-height: 1;
-    margin-top: 30%;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    background-color: #7fad39;
-    height: 15px;
-    width: 15px;
-    text-align: center;
-    align-content: center;
-    border-radius: 50%;
-}
-#coracao{
-    font-size: 18px;
-}
-#bag{
+
+#heart {
     display: flex;
     height: 40px;
     line-height: 3;
     padding-right: 12px;
 }
-#salvo2{
+
+#salvo {
     line-height: 1;
     margin-top: 30%;
     font-size: 10px;
@@ -246,17 +241,45 @@ ul {
     align-content: center;
     border-radius: 50%;
 }
-#saco{
+
+#coracao {
     font-size: 18px;
 }
-#valor1{
+
+#bag {
+    display: flex;
+    height: 40px;
+    line-height: 3;
+    padding-right: 12px;
+}
+
+#salvo2 {
+    line-height: 1;
+    margin-top: 30%;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #7fad39;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+}
+
+#saco {
+    font-size: 18px;
+}
+
+#valor1 {
     display: flex;
 }
-#valor{
+
+#valor {
     font-weight: bold;
 }
 
-#menuV{
+#menuV {
     background-color: #7fad39;
     width: 79%;
     height: 50px;
@@ -266,27 +289,32 @@ ul {
     grid-row: 2/4;
     align-content: center;
 }
-#baixo2{
+
+#baixo2 {
     font-size: 12px;
 }
-#espaço3{
+
+#espaço3 {
     width: 17%;
 }
-#menuVerde{
+
+#menuVerde {
     position: relative;
 }
 
-#barra{
+#barra {
     padding-right: 6%;
 }
-#visivelLat{
+
+#visivelLat {
     padding-left: 20px;
     text-align: center;
     display: flex;
     align-items: center;
     height: 50px;
 }
-#menuInv{
+
+#menuInv {
     position: absolute;
     border: rgba(170, 167, 167, 0.726) 1px solid;
     line-height: 2.4;
@@ -300,7 +328,8 @@ ul {
     opacity: 0;
     transition: 1s;
 }
-#sobe{
+
+#sobe {
     position: absolute;
     width: 100%;
     height: 50px;
@@ -308,18 +337,22 @@ ul {
     border: solid;
     opacity: 0;
 }
-#sobe:hover{
+
+#sobe:hover {
     cursor: pointer;
 }
-#sobe:checked~#menuInv{
+
+#sobe:checked~#menuInv {
     opacity: 1;
     z-index: 99;
     top: 95%;
 }
-#menuVerde:hover{
+
+#menuVerde:hover {
     cursor: pointer;
 }
-#barraPesquisa{
+
+#barraPesquisa {
     padding-left: 3%;
     width: 590px;
     height: 65%;
@@ -328,18 +361,22 @@ ul {
     align-items: center;
     border: solid 1px rgba(82, 82, 82, 0.151);
 }
-.bold{
+
+.bold {
     font-weight: bold;
     color: black;
 }
-#All{
+
+#All {
     font-size: 16px;
     padding-right: 6.05%;
 }
-#baixo3{
+
+#baixo3 {
     font-size: 10px;
 }
-#busca{
+
+#busca {
     height: 40px;
     width: 308.7px;
     background-color: transparent;
@@ -349,7 +386,8 @@ ul {
     outline: none;
     color: #b6b3b3;
 }
-#btn{
+
+#btn {
     background-color: #7fad39;
     width: 100px;
     height: 55px;
@@ -357,13 +395,15 @@ ul {
     text-align: center;
     align-content: center;
 }
-#btn a{
+
+#btn a {
     color: white;
     text-decoration: none;
     font-family: "Cairo", sans-serif;
     font-size: 16px;
 }
-#telefone{
+
+#telefone {
     grid-column: 5;
     margin-left: 30%;
     background-color: #e6e3e3;
@@ -374,42 +414,52 @@ ul {
     align-content: center;
     color: #7fad39;
 }
-#numero{
+
+#numero {
     display: flex;
 }
-#num{
+
+#num {
     margin-left: 6%;
 }
-#fosco{
+
+#fosco {
     font-size: 14px;
     color: #4b4a4a;
 }
-#numeroemsi{
+
+#numeroemsi {
     font-size: 18px;
     font-weight: 900;
 }
-#banner{
+
+#banner {
     grid-column: 3/6;
     grid-row: 3/4;
     background-image: url(img/banner.jpg);
 }
-#textoB{
+
+#textoB {
     padding-left: 80px;
     padding-top: 80px;
 }
-#Fruit{
+
+#Fruit {
     color: #7fad39;
     font-weight: 900;
 }
-#gigante{
+
+#gigante {
     font-size: 46px;
     font-weight: 900;
     line-height: 1.2;
 }
-#subT{
+
+#subT {
     color: #6f6f6f;
 }
-#btn2{
+
+#btn2 {
     background-color: #7fad39;
     width: 140px;
     height: 40px;
@@ -418,41 +468,48 @@ ul {
     align-content: center;
     font-weight: 800;
 }
-#baseL{
+
+#baseL {
     grid-row: 4;
     grid-column: 1;
     text-align: end;
     align-content: center;
     margin-right: 5%;
 }
-#lateral{
+
+#lateral {
     border: 1px solid #6f6f6f;
     margin-left: 92%;
     padding-right: 7px;
     height: 60px;
     align-content: center;
 }
-#lateral2{
+
+#lateral2 {
     border: 1px solid #6f6f6f;
     margin-right: 92%;
     padding-left: 7px;
     height: 60px;
     align-content: center;
 }
-#lateral:hover{
+
+#lateral:hover {
     cursor: pointer;
 }
-#lateral2:hover{
+
+#lateral2:hover {
     cursor: pointer;
 }
-#baseL2{
+
+#baseL2 {
     grid-row: 4;
     grid-column: 6;
     text-align: start;
     align-content: center;
     margin-right: 5%;
 }
-#produto1{
+
+#produto1 {
     margin-top: 10%;
     background-image: url(img/cat-2.jpg);
     background-repeat: no-repeat;
@@ -460,7 +517,8 @@ ul {
     text-align: center;
     align-content: end;
 }
-.produto1{
+
+.produto1 {
     background-color: white;
     height: 40px;
     width: 70%;
@@ -469,7 +527,8 @@ ul {
     font-weight: 700;
     font-size: 18px;
 }
-.produto{
+
+.produto {
     background-color: white;
     height: 40px;
     width: 80%;
@@ -478,7 +537,8 @@ ul {
     font-weight: 700;
     font-size: 18px;
 }
-#produto2{
+
+#produto2 {
     margin-top: 10%;
     background-image: url(img/cat-3.jpg);
     background-repeat: no-repeat;
@@ -486,7 +546,8 @@ ul {
     text-align: center;
     align-content: end;
 }
-.produto2{
+
+.produto2 {
     background-color: white;
     height: 40px;
     width: 60%;
@@ -495,7 +556,8 @@ ul {
     font-weight: 700;
     font-size: 18px;
 }
-#produto3{
+
+#produto3 {
     margin-top: 15%;
     background-image: url(img/cat-4.jpg);
     background-repeat: no-repeat;
@@ -503,7 +565,8 @@ ul {
     text-align: center;
     align-content: end;
 }
-.produto3{
+
+.produto3 {
     background-color: white;
     height: 40px;
     width: 80%;
@@ -512,7 +575,8 @@ ul {
     font-weight: 700;
     font-size: 18px;
 }
-#produto4{
+
+#produto4 {
     margin-left: 9%;
     margin-top: 10%;
     background-image: url(img/cat-5.jpg);
@@ -521,7 +585,8 @@ ul {
     text-align: center;
     align-content: end;
 }
-.produto4{
+
+.produto4 {
     background-color: white;
     height: 40px;
     width: 75%;
@@ -530,52 +595,59 @@ ul {
     font-weight: 700;
     font-size: 18px;
 }
-#Featured{
-    border: 1px solid;
-    height: 150vh;
+
+#Featured {
+    height: 145vh;
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.3fr ;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.3fr;
     grid-template-rows: 100px 80px 400px 400px 600px;
 }
-#TituFeat{
+
+#TituFeat {
     grid-column: 1/7;
     text-align: center;
     align-content: center;
     font-size: 36px;
     font-weight: 700;
 }
-.traçoVerde{
+
+.traçoVerde {
     background-color: #7fad39;
     margin-left: 48%;
     margin-right: 47%;
     height: 5px;
 }
-#tipos{
+
+#tipos {
     grid-column: 3/5;
     grid-row: 2;
     text-align: center;
     font-size: 16px;
 }
 
-#tipos ul{
+#tipos ul {
     padding: 0;
     margin-left: 43px;
 }
-#tipos ul li{
+
+#tipos ul li {
     margin-left: 40px;
 }
-#tipos ul li:hover{
+
+#tipos ul li:hover {
     cursor: pointer;
 }
-#traço1{
+
+#traço1 {
     margin-top: 0;
     margin-left: 12%;
     margin-right: 84%;
     height: 2px;
 }
-#produto01{
+
+#produto01 {
     background-image: url(img/cat-5.jpg);
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     background-position-x: 50%;
     grid-row: 3;
     grid-column: 2;
@@ -585,42 +657,46 @@ ul {
     margin-bottom: 60px;
     position: relative;
 }
-#produto02{
+
+#produto02 {
     background-image: url(img/feature-2.jpg);
     background-position-x: 50%;
     grid-row: 3;
     grid-column: 3;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     text-align: center;
     align-content: end;
     margin-right: 25%;
     position: relative;
     margin-bottom: 60px;
 }
-#produto03{
+
+#produto03 {
     background-image: url(img/feature-3.jpg);
     background-position-x: 50%;
     grid-row: 3;
     grid-column: 4;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     text-align: center;
     align-content: end;
     margin-right: 25%;
     position: relative;
     margin-bottom: 60px;
 }
-#produto04{
+
+#produto04 {
     background-image: url(img/feature-4.jpg);
     background-position-x: 50%;
     grid-row: 3;
     grid-column: 5;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     text-align: center;
     align-content: end;
     margin-right: 25%;
     position: relative;
     margin-bottom: 60px;
 }
+
 .hoverGira {
     position: absolute;
     top: 98%;
@@ -628,111 +704,138 @@ ul {
     transition: .4s;
     opacity: 0;
 }
-#produto01:hover .hoverGira{
+
+#produto01:hover .hoverGira {
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
 }
-.hoverGira li{
-    background-color:aliceblue;
+
+.hoverGira li {
+    background-color: aliceblue;
     margin-left: 20px;
     height: 35px;
     width: 35px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 50%;   
+    border-radius: 50%;
     align-content: center;
 
 }
-#produto02:hover .hoverGira{
+
+#produto02:hover .hoverGira {
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
 }
-#produto03:hover .hoverGira{
+
+#produto03:hover .hoverGira {
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
 }
-#produto04:hover .hoverGira{
+
+#produto04:hover .hoverGira {
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
 }
-.hoverGira li:hover{
+
+.hoverGira li:hover {
     background-color: #7fad39;
     color: white;
 }
-.hoverGira  li:hover  i{
+
+.hoverGira li:hover i {
     transform: rotate(360deg);
 }
-.hoverGira li i{
+
+.hoverGira li i {
     transition: .3s;
 }
-#produto05{
+
+#produto05 {
     background-image: url(img/feature-5.jpg);
     background-position-x: 50%;
     grid-row: 4;
     grid-column: 2;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     text-align: center;
     align-content: end;
     margin-right: 25%;
     position: relative;
     margin-bottom: 60px;
 }
-#produto06{
+
+#produto06 {
     background-image: url(img/feature-6.jpg);
     background-position-x: 50%;
     grid-row: 4;
     grid-column: 3;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     text-align: center;
     align-content: end;
     margin-right: 25%;
     position: relative;
     margin-bottom: 60px;
 }
-#produto07{
+
+#produto07 {
     background-image: url(img/feature-7.jpg);
     background-position-x: 50%;
     grid-row: 4;
     grid-column: 4;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     text-align: center;
     align-content: end;
     margin-right: 25%;
     position: relative;
     margin-bottom: 60px;
 }
-#produto08{
+
+#produto08 {
     background-image: url(img/feature-8.jpg);
     background-position-x: 50%;
     grid-row: 4;
     grid-column: 5;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     text-align: center;
     align-content: end;
     margin-right: 25%;
     position: relative;
     margin-bottom: 60px;
 }
-#produto05:hover .hoverGira{
+
+#produto05:hover .hoverGira {
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
 }
-#produto06:hover .hoverGira{
+
+#produto06:hover .hoverGira {
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
 }
-#produto07:hover .hoverGira{
+
+#produto07:hover .hoverGira {
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
 }
-#produto08:hover .hoverGira{
+
+#produto08:hover .hoverGira {
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
+}
+
+#banner1 {
+    grid-column: 2/4;
+}
+
+#banner2 {
+    grid-column: 4/6;
+}
+#CarrosselV{
+    
 }
