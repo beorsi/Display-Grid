@@ -574,7 +574,6 @@ ul {
     height: 2px;
 }
 #produto01{
-    border: solid;
     background-image: url(img/cat-5.jpg);
     background-repeat:no-repeat ;
     background-position-x: 50%;
@@ -595,7 +594,8 @@ ul {
     text-align: center;
     align-content: end;
     margin-right: 25%;
-
+    position: relative;
+    margin-bottom: 60px;
 }
 #produto03{
     background-image: url(img/feature-3.jpg);
@@ -606,7 +606,8 @@ ul {
     text-align: center;
     align-content: end;
     margin-right: 25%;
-
+    position: relative;
+    margin-bottom: 60px;
 }
 #produto04{
     background-image: url(img/feature-4.jpg);
@@ -617,24 +618,43 @@ ul {
     text-align: center;
     align-content: end;
     margin-right: 25%;
-
+    position: relative;
+    margin-bottom: 60px;
 }
-#hoverGira {
+.hoverGira {
     position: absolute;
-    top: 80%;
+    top: 98%;
     z-index: -99;
     transition: .4s;
     opacity: 0;
 }
-#produto01:hover #hoverGira{
+#produto01:hover .hoverGira{
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
 }
-#hoverGira li{
+.hoverGira li{
     background-color:aliceblue;
-    margin-left: 30px;
-    height: 20px;
-    width: 20px;
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 50%;   
+    align-content: center;
+
+}
+#produto02:hover .hoverGira{
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto03:hover .hoverGira{
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto04:hover .hoverGira{
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
 }
