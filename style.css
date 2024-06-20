@@ -532,7 +532,7 @@ ul {
 }
 #Featured{
     border: 1px solid;
-    height: 80vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.3fr ;
     grid-template-rows: 100px 80px 400px 400px 600px;
@@ -667,4 +667,72 @@ ul {
 }
 .hoverGira li i{
     transition: .3s;
+}
+#produto05{
+    background-image: url(img/feature-5.jpg);
+    background-position-x: 50%;
+    grid-row: 4;
+    grid-column: 2;
+    background-repeat:no-repeat ;
+    text-align: center;
+    align-content: end;
+    margin-right: 25%;
+    position: relative;
+    margin-bottom: 60px;
+}
+#produto06{
+    background-image: url(img/feature-6.jpg);
+    background-position-x: 50%;
+    grid-row: 4;
+    grid-column: 3;
+    background-repeat:no-repeat ;
+    text-align: center;
+    align-content: end;
+    margin-right: 25%;
+    position: relative;
+    margin-bottom: 60px;
+}
+#produto07{
+    background-image: url(img/feature-7.jpg);
+    background-position-x: 50%;
+    grid-row: 4;
+    grid-column: 4;
+    background-repeat:no-repeat ;
+    text-align: center;
+    align-content: end;
+    margin-right: 25%;
+    position: relative;
+    margin-bottom: 60px;
+}
+#produto08{
+    background-image: url(img/feature-8.jpg);
+    background-position-x: 50%;
+    grid-row: 4;
+    grid-column: 5;
+    background-repeat:no-repeat ;
+    text-align: center;
+    align-content: end;
+    margin-right: 25%;
+    position: relative;
+    margin-bottom: 60px;
+}
+#produto05:hover .hoverGira{
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto06:hover .hoverGira{
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto07:hover .hoverGira{
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto08:hover .hoverGira{
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
 }
