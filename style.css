@@ -949,6 +949,7 @@ ul {
     display: grid;
     grid-template-columns: 2.4fr 1.5fr 1.5fr 1.5fr 1.5fr 1.2fr;
     column-gap: 30px;
+    height: 80vh;
 }
 #TituFrom{
     grid-column: 1/7;
@@ -1032,4 +1033,30 @@ ul {
 }
 #CookingTips span{
     color: #7e7c7c;
+}
+#Rodapé{
+    height: 40vh;
+    background-color: #e9e5e5;
+    display:flex ;
+}
+#Endereço{
+    margin-left: 19%;
+    padding-top: 60px;
+}
+#UsefulLinks{
+    padding-top: 60px;
+    margin-left: 9%;
+    display: flex;
+    font-size: 14px;
+    line-height: 2.2;
+}
+#colunaDir{
+    margin-left: 30px;
+    padding-top: 28px;
+}
+#colunaEsq span:hover{
+    cursor: pointer;
+}
+#colunaDir span:hover{
+    cursor: pointer;
 }
