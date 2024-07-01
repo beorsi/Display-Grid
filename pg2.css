@@ -459,8 +459,8 @@ ul a:hover{
 }
 #superior{
     display: grid;
-    grid-template-columns: 1.5fr 1.3fr 1.3fr 1.3fr 1.3fr 1.5fr;
-    grid-template-rows: 50px 400px 100px;
+    grid-template-columns: 1.5fr 1.4fr 1.4fr 1.4fr 1.3fr 1.5fr;
+    grid-template-rows: 50px 450px 100px;
 }
 #department{
     font-weight: 900;
@@ -487,30 +487,116 @@ ul a:hover{
     text-align: left;
     padding: 0;
 }
+
+#espVer{
+    height: 60%;
+}
+#desconto{
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#Dried{
+    color: #c4c0c0;
+}
+#Raisin{
+    font-size: 18px;
+}
+#Traçado{
+    text-decoration: line-through;
+    color: #c4c0c0;
+    font-weight:600 ;
+    font-size: 15px;
+}
+#trinta{
+    font-size: 18px;
+}
 #produto01 {
-    background-image: url(img/cat-5.jpg);
+    margin-top: 40px;
+    background-image: url(img/cat-4.jpg);
     background-repeat: no-repeat;
     background-position-x: 50%;
     text-align: center;
-    align-content: end;
     margin-right: 20%;
-    margin-bottom: 60px;
-    position: relative;
+    margin-bottom: 50px;
     grid-column: 3;
+    position: relative;
 }
+
 #produto01:hover .hoverGira {
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto02 {
+    margin-top: 40px;
+    background-image: url(img/feature-7.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    text-align: center;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    grid-column: 4;
+    position: relative;
+}
+
+#produto02:hover .hoverGira {
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto03 {
+    margin-top: 40px;
+    background-image: url(img/feature-6.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    text-align: center;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    grid-column: 5;
+    position: relative;
+}
+
+#produto03:hover .hoverGira {
     z-index: 100;
     transform: translateY(-400%);
     opacity: 1;
 }
 .hoverGira {
     position: absolute;
-    top: 98%;
+    top: 95%;
     z-index: -99;
     transition: .4s;
     opacity: 0;
 }
+.hoverGira li {
+    background-color: aliceblue;
+    margin-left: 17px;
+    height: 35px;
+    width: 35px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    align-content: center;
+}
+.hoverGira li:hover {
+    background-color: #7fad39;
+    color: white;
+    cursor: pointer;
+}
 
+.hoverGira li:hover i {
+    transform: rotate(360deg);
+}
+
+.hoverGira li i {
+    transition: .3s;
+}
 
 
 
