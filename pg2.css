@@ -491,8 +491,6 @@ ul a:hover{
     background-image: url(img/cat-5.jpg);
     background-repeat: no-repeat;
     background-position-x: 50%;
-    grid-row: 3;
-    grid-column: 2;
     text-align: center;
     align-content: end;
     margin-right: 20%;
