@@ -460,7 +460,7 @@ ul a:hover{
 #superior{
     display: grid;
     grid-template-columns: 1.5fr 1.4fr 1.4fr 1.4fr 1.3fr 1.5fr;
-    grid-template-rows: 50px 450px 100px;
+    grid-template-rows: 50px 450px 80px;
 }
 #department{
     font-weight: 900;
@@ -597,7 +597,50 @@ ul a:hover{
 .hoverGira li i {
     transition: .3s;
 }
-
+#bolas{
+    grid-column: 4;
+    grid-row: 3;
+    display: flex;
+    margin-left: 33%;
+}
+#bola1{
+    border-radius: 50%;
+    border: solid 1px#c4c0c0;
+    height: 12px;
+    width: 12px;
+    margin-right: 12px;
+    background-color: #b6b3b3;
+}
+#bola2{
+    border-radius: 50%;
+    border: solid 1px #c4c0c0;
+    height: 12px;
+    width: 12px;
+}
+#traco{
+    grid-column: 3/6;
+    background-color: #c4c0c0;
+    height: .2vh;
+}
+#Precao{
+    grid-column: 2;
+    grid-row: 3;
+}
+#Price{
+    font-size: 24px;
+}
+#seletor{
+    width: 280px;
+}
+#verm{
+    color: rgb(214, 6, 6);
+    font-weight: 800;
+}
+#inferior{
+    display: grid;
+    grid-template-columns: 1.5fr 1.4fr 1.4fr 1.4fr 1.3fr 1.5fr;
+    grid-template-rows: 120px 400px 400px 400px 400px;
+}
 
 
 
