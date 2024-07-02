@@ -621,6 +621,7 @@ ul a:hover{
     grid-column: 3/6;
     background-color: #c4c0c0;
     height: .2vh;
+    margin-top: 30px;
 }
 #Precao{
     grid-column: 2;
@@ -631,6 +632,21 @@ ul a:hover{
 }
 #seletor{
     width: 280px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    background-color: #ec2d2d;
+    height: 15px;
+    
+}
+input[type='range']::-webkit-slider-thumb {
+    width: 20px;
+    -webkit-appearance: none;
+    height: 20px;
+    cursor: pointer;
+    background: #ffffff;
+    z-index: 15;
+    border-radius: 50%;
+    margin: 0;
 }
 #verm{
     color: rgb(214, 6, 6);
@@ -641,6 +657,67 @@ ul a:hover{
     grid-template-columns: 1.5fr 1.4fr 1.4fr 1.4fr 1.3fr 1.5fr;
     grid-template-rows: 120px 400px 400px 400px 400px;
 }
+#Colors{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 10px;
+    
+}
+.bola{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: solid 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#paleta{
+    margin-top: 10px;
+}
+#w{
+    background-color: white;
+}
+#G{
+    background-color: rgb(247, 204, 12);
+}
+#R{
+    background-color: red;
+}
+#B{
+    background-color: black;
+    margin-left: 22.5px;
+}
+#BL{
+    background-color: blue;
+}
+#Gre{
+    background-color: green;
+    margin-left: 19px;
+}
+#linha1{
+    display:flex ; 
+    line-height: 1;
+}
+#linha2{
+    display:flex ;
+    line-height: 1;
+}
+#linha3{
+    display:flex ;
+    line-height: 1;
+}
+.textoCor{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+
+
 
 
 
@@ -763,3 +840,4 @@ ul a:hover{
     margin-top: 50px;
     margin-left: 80px;
 }
+
