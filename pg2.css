@@ -17,11 +17,13 @@ ul {
     list-style: none;
     line-height: 1;
 }
-ul a{
+
+ul a {
     text-decoration: none;
     color: black;
 }
-ul a:hover{
+
+ul a:hover {
     color: #7fad39;
 }
 
@@ -343,7 +345,7 @@ ul a:hover{
     margin-top: 0;
     border: solid;
     opacity: 0;
-    
+
 }
 
 #sobe:hover {
@@ -441,7 +443,8 @@ ul a:hover{
     font-size: 18px;
     font-weight: 900;
 }
-#Tomate{
+
+#Tomate {
     background-image: url(img/breadcrumb.jpg);
     height: 150px;
     align-content: center;
@@ -449,49 +452,58 @@ ul a:hover{
     color: white;
     margin-bottom: 70px;
 }
-#Organi{
+
+#Organi {
     color: white;
     font-size: 48px;
     font-weight: 900;
 }
-#Tomate span{
+
+#Tomate span {
     color: white;
 }
-#superior{
+
+#superior {
     display: grid;
     grid-template-columns: 1.5fr 1.4fr 1.4fr 1.4fr 1.3fr 1.5fr;
     grid-template-rows: 50px 450px 80px;
 }
-#department{
+
+#department {
     font-weight: 900;
     grid-column: 2;
     font-size: 24px;
 }
-#off{
+
+#off {
     font-size: 36px;
     font-weight: 900;
     line-height: 1;
 }
-#tracinho{
+
+#tracinho {
     background-color: #7fad39;
     height: .5vh;
     width: 38%;
 }
-#lista{
+
+#lista {
     grid-column: 2;
     align-content: start;
 }
-#lista ul{
+
+#lista ul {
     display: block;
     line-height: 2.5;
     text-align: left;
     padding: 0;
 }
 
-#espVer{
+#espVer {
     height: 60%;
 }
-#desconto{
+
+#desconto {
     background-color: red;
     color: white;
     width: 50px;
@@ -502,21 +514,26 @@ ul a:hover{
     margin-top: 5%;
     margin-left: 5%;
 }
-#Dried{
+
+#Dried {
     color: #c4c0c0;
 }
-#Raisin{
+
+#Raisin {
     font-size: 18px;
 }
-#Traçado{
+
+#Traçado {
     text-decoration: line-through;
     color: #c4c0c0;
-    font-weight:600 ;
+    font-weight: 600;
     font-size: 15px;
 }
-#trinta{
+
+#trinta {
     font-size: 18px;
 }
+
 #produto01 {
     margin-top: 40px;
     background-image: url(img/cat-4.jpg);
@@ -534,6 +551,7 @@ ul a:hover{
     transform: translateY(-400%);
     opacity: 1;
 }
+
 #produto02 {
     margin-top: 40px;
     background-image: url(img/feature-7.jpg);
@@ -551,6 +569,7 @@ ul a:hover{
     transform: translateY(-400%);
     opacity: 1;
 }
+
 #produto03 {
     margin-top: 40px;
     background-image: url(img/feature-6.jpg);
@@ -568,6 +587,7 @@ ul a:hover{
     transform: translateY(-400%);
     opacity: 1;
 }
+
 .hoverGira {
     position: absolute;
     top: 95%;
@@ -575,6 +595,7 @@ ul a:hover{
     transition: .4s;
     opacity: 0;
 }
+
 .hoverGira li {
     background-color: aliceblue;
     margin-left: 17px;
@@ -584,6 +605,7 @@ ul a:hover{
     border-radius: 50%;
     align-content: center;
 }
+
 .hoverGira li:hover {
     background-color: #7fad39;
     color: white;
@@ -597,13 +619,15 @@ ul a:hover{
 .hoverGira li i {
     transition: .3s;
 }
-#bolas{
+
+#bolas {
     grid-column: 4;
     grid-row: 3;
     display: flex;
     margin-left: 33%;
 }
-#bola1{
+
+#bola1 {
     border-radius: 50%;
     border: solid 1px#c4c0c0;
     height: 12px;
@@ -611,33 +635,39 @@ ul a:hover{
     margin-right: 12px;
     background-color: #b6b3b3;
 }
-#bola2{
+
+#bola2 {
     border-radius: 50%;
     border: solid 1px #c4c0c0;
     height: 12px;
     width: 12px;
 }
-#traco{
+
+#traco {
     grid-column: 3/6;
     background-color: #c4c0c0;
     height: .2vh;
     margin-top: 30px;
 }
-#Precao{
+
+#Precao {
     grid-column: 2;
     grid-row: 3;
 }
-#Price{
+
+#Price {
     font-size: 24px;
 }
-#seletor{
+
+#seletor {
     width: 280px;
     overflow: hidden;
     -webkit-appearance: none;
     background-color: #ec2d2d;
     height: 15px;
-    
+
 }
+
 input[type='range']::-webkit-slider-thumb {
     width: 20px;
     -webkit-appearance: none;
@@ -648,24 +678,29 @@ input[type='range']::-webkit-slider-thumb {
     border-radius: 50%;
     margin: 0;
 }
-#verm{
+
+#verm {
     color: rgb(214, 6, 6);
     font-weight: 800;
 }
-#inferior{
+
+#inferior {
     display: grid;
     grid-template-columns: 1.5fr 1.4fr 1.4fr 1.4fr 1.3fr 1.5fr;
     grid-template-rows: 120px 120px 130px 130px 130px;
+
 }
-#Colors{
+
+#Colors {
     grid-column: 2;
     grid-row: 1;
     font-size: 24px;
     font-weight: 800;
     margin-top: 10px;
-    
+
 }
-.bola{
+
+.bola {
     height: 15px;
     width: 15px;
     border-radius: 50%;
@@ -674,94 +709,116 @@ input[type='range']::-webkit-slider-thumb {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-#paleta{
+
+#paleta {
     margin-top: 10px;
 }
-#w{
+
+#w {
     background-color: white;
 }
-#G{
+
+#G {
     background-color: rgb(247, 204, 12);
 }
-#R{
+
+#R {
     background-color: red;
 }
-#B{
+
+#B {
     background-color: black;
     margin-left: 22.5px;
 }
-#BL{
+
+#BL {
     background-color: blue;
 }
-#Gre{
+
+#Gre {
     background-color: green;
     margin-left: 19px;
 }
-#linha1{
-    display:flex ; 
+
+#linha1 {
+    display: flex;
     line-height: 1;
 }
-#linha2{
-    display:flex ;
+
+#linha2 {
+    display: flex;
     line-height: 1;
 }
-#linha3{
-    display:flex ;
+
+#linha3 {
+    display: flex;
     line-height: 1;
 }
-.textoCor{
+
+.textoCor {
     font-weight: 500;
     font-size: 14px;
 }
-#Popular{
+
+#Popular {
     grid-column: 2;
     grid-row: 2;
     margin-top: 40px;
 }
-#TextPop{
+
+#TextPop {
     font-size: 24px;
 }
-.size{
-    background-color:#f0ecec ;
+
+.size {
+    background-color: #f0ecec;
     font-size: 12px;
     color: #616060;
 }
-.size:hover{
+
+.size:hover {
     cursor: pointer;
 }
-#linha01{
-    display: flex; 
-}
-#linha02{
+
+#linha01 {
     display: flex;
-    margin-top: 10px; 
 }
-#Large{
+
+#linha02 {
+    display: flex;
+    margin-top: 10px;
+}
+
+#Large {
     margin-right: 15px;
     width: 90px;
     height: 30px;
     align-content: center;
     text-align: center;
 }
-#Medio{
+
+#Medio {
     width: 90px;
     height: 30px;
     align-content: center;
     text-align: center;
 }
-#Small{
+
+#Small {
     margin-right: 15px;
     width: 90px;
     height: 30px;
     align-content: center;
     text-align: center;
 }
-#Tiny{
+
+#Tiny {
     width: 70px;
     height: 30px;
     align-content: center;
     text-align: center;
 }
+
 #Latest {
     grid-column: 2;
     grid-row: 3;
@@ -775,6 +832,7 @@ input[type='range']::-webkit-slider-thumb {
     font-weight: 900;
     margin-right: 25%;
 }
+
 #alface {
     grid-column: 2;
     grid-row: 4;
@@ -795,6 +853,7 @@ input[type='range']::-webkit-slider-thumb {
     display: flex;
     width: 350px;
 }
+
 #setaEsq {
     border: solid 1px lightgray;
     width: 28px;
@@ -815,14 +874,43 @@ input[type='range']::-webkit-slider-thumb {
     line-height: 1;
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
+#subGrid{
+    margin-top: 10px;
+    grid-column: 3/6;
+    border: solid;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 400px 400px;
+}
+#Sort{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+}
+#Default{
+    position: relative;
+}
+#dropDef{
+    display: block;
+    padding: 0;
+    background-color: #e0dede;
+    width: 100px;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    transition: .5s;
+}
+#dropDef li{
+    margin-bottom: 8px;
+}
+#Depo{
+    position: absolute;
+    top: 7px;
+    left: .5%;
+    width: 75px;
+    opacity: 0;
+}
 
 
 
@@ -940,10 +1028,10 @@ input[type='range']::-webkit-slider-thumb {
 #copyright span {
     color: blue;
 }
-#pagamentos{
+
+#pagamentos {
     grid-row: 3;
     grid-column: 4;
     margin-top: 50px;
     margin-left: 80px;
 }
-
