@@ -655,7 +655,7 @@ input[type='range']::-webkit-slider-thumb {
 #inferior{
     display: grid;
     grid-template-columns: 1.5fr 1.4fr 1.4fr 1.4fr 1.3fr 1.5fr;
-    grid-template-rows: 120px 400px 400px 400px 400px;
+    grid-template-rows: 120px 120px 130px 130px 130px;
 }
 #Colors{
     grid-column: 2;
@@ -715,11 +715,111 @@ input[type='range']::-webkit-slider-thumb {
 }
 #Popular{
     grid-column: 2;
+    grid-row: 2;
     margin-top: 40px;
 }
-#TextoPop{
+#TextPop{
     font-size: 24px;
 }
+.size{
+    background-color:#f0ecec ;
+    font-size: 12px;
+    color: #616060;
+}
+.size:hover{
+    cursor: pointer;
+}
+#linha01{
+    display: flex; 
+}
+#linha02{
+    display: flex;
+    margin-top: 10px; 
+}
+#Large{
+    margin-right: 15px;
+    width: 90px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+}
+#Medio{
+    width: 90px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+}
+#Small{
+    margin-right: 15px;
+    width: 90px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+}
+#Tiny{
+    width: 70px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+}
+#Latest {
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+#latest {
+    font-size: 24px;
+    font-weight: 900;
+    margin-right: 25%;
+}
+#alface {
+    grid-column: 2;
+    grid-row: 4;
+    display: flex;
+    width: 350px;
+}
+
+#pimentao {
+    grid-column: 2;
+
+    display: flex;
+    width: 350px;
+}
+
+#coxa {
+    grid-column: 2;
+
+    display: flex;
+    width: 350px;
+}
+#setaEsq {
+    border: solid 1px lightgray;
+    width: 28px;
+    height: 28px;
+    align-content: center;
+    text-align: center;
+    line-height: 1;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+#setaDir {
+    border: solid 1px lightgray;
+    width: 28px;
+    height: 28px;
+    align-content: center;
+    text-align: center;
+    line-height: 1;
+    font-size: 12px;
+}
+
+
+
+
+
 
 
 
