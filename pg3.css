@@ -450,7 +450,7 @@ ul a:hover {
     align-content: center;
     text-align: center;
     color: white;
-    margin-bottom: 70px;
+    margin-bottom: 140px;
 }
 
 #Organi {
@@ -463,6 +463,223 @@ ul a:hover {
     color: white;
 }
 
+#main1 {
+    width: 100%;
+}
+
+#lateral {
+    margin-left: 350px;
+    margin-right: 70px;
+}
+
+#pesq {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px lightgray;
+    outline: none;
+    padding-left: 10px;
+    position: relative;
+    color: #b6b3b3;
+    font-size: 16px;
+}
+
+#lupa {
+    position: absolute;
+    top: 527px;
+    left: 630px;
+    color: #b6b3b3;
+    transform: scaleX(-1);
+}
+
+#Cate {
+    margin-top: 40px;
+}
+
+#Cate div {
+    font-size: 24px;
+}
+
+#Cate ul {
+    display: block;
+    padding: 0;
+}
+
+#Cate ul li {
+    margin-bottom: 30px;
+    color: #808080;
+}
+
+#main1 {
+    height: 155vh;
+    display: flex;
+}
+
+#news {
+    font-size: 24px;
+}
+#imagem1{
+    align-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+#imagem1 span{
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 1;
+}
+#imagem1 span{
+    display: block;
+}
+#imagem1 span span{
+    color: #b6b3b3;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 20px;
+}
+#imagem2{
+    align-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+#imagem2 span{
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 1;
+}
+#imagem2 span{
+    display: block;
+}
+#imagem2 span span{
+    color: #b6b3b3;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 20px;
+}
+#imagem3{
+    align-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+#imagem3 span{
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 1;
+}
+#imagem3 span{
+    display: block;
+}
+#imagem3 span span{
+    color: #b6b3b3;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 20px;
+}
+#SearchBy{
+    margin-top: 35px;
+    padding: 0;
+}
+#search{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+#L1{
+    display: flex;
+}
+#L1 div{
+    background-color: #f1f0f0;
+    color: #858585;
+    margin-left: 15px;
+    text-align: center;
+    height: 34px;
+    align-content: center;
+}
+#A{
+    width: 90px;
+}
+#B{
+    width: 100px;
+}
+#V{
+    width: 120px;
+}
+#L2{
+    display: flex;
+    margin-top: 20px;
+}
+#L2 div{
+    background-color: #f1f0f0;
+    color: #858585;
+    margin-left: 15px;
+    text-align: center;
+    height: 34px;
+    align-content: center;
+}
+#F{
+    width: 87px;
+}
+#H{
+    width: 100px;
+}
+#L{
+    width: 140px;
+}
+#grid2x3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px 450px 450px;
+    width: 900px;
+}
+#vagem img {
+    height: 250px;
+}
+
+#textoVi {
+    color: #7e7c7c;
+}
+
+#CookingTips1 a {
+    font-weight: 900;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+#Read{
+    height: 40px;
+    width: 150px;
+    border: solid 1px #858585;
+    text-align: center;
+    border-radius: 20px;
+    align-content: center;
+    font-size: 14px;
+    color: #858585;
+    margin-top: 15px;
+}
+#Read:hover{
+    cursor: pointer;
+}
+#Laranja img {
+    height: 250px;
+}
+#rosa img {
+    height: 250px;
+}
+#vegetal img {
+    height: 250px;
+}
+#macarrao img {
+    height: 250px;
+}
+#linhinha{
+    width: 45%;
+    background-color: lightgray;
+    height: .1vh;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
 
 
 
@@ -474,22 +691,13 @@ ul a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-#nums{
+#nums {
     padding-left: 36%;
     margin-bottom: 80px;
     display: flex;
 }
-#nums>div{
+
+#nums>div {
     border: solid 1px lightgray;
     width: 30px;
     margin-left: 20px;
@@ -497,10 +705,11 @@ ul a:hover {
     color: #b6b3b3;
     transition: .3s;
 }
-#nums>div:hover{
-   cursor: pointer; 
-   background-color: #7fad39;
-   color: white;
+
+#nums>div:hover {
+    cursor: pointer;
+    background-color: #7fad39;
+    color: white;
 }
 
 #Rodapé {
