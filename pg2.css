@@ -688,7 +688,7 @@ input[type='range']::-webkit-slider-thumb {
     display: grid;
     grid-template-columns: 1.5fr 1.4fr 1.4fr 1.4fr 1.3fr 1.5fr;
     grid-template-rows: 120px 120px 130px 130px 130px;
-    height: 150vh;
+    height: 190vh;
 }
 
 #Colors {
@@ -877,11 +877,10 @@ input[type='range']::-webkit-slider-thumb {
 #subGrid{
     margin-top: 30px;
     grid-column: 3/6;
-    border: solid;
     grid-row: 1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 400px 400px 400px 400px;
+    grid-template-rows: 100px 400px 400px 400px 400px 400px;
 }
 #Sort{
     grid-column: 1;
@@ -1061,26 +1060,120 @@ svg:hover{
     margin-bottom: 60px;
     position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#produto007:hover .hoverGira {
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto007 {
+    background-image: url(img/product-7.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    grid-row: 4;
+    text-align: center;
+    align-content: end;
+    margin-right: 20%;
+    margin-bottom: 60px;
+    position: relative;
+}
+#produto008:hover .hoverGira {
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto008 {
+    background-image: url(img/product-8.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    grid-row: 4;
+    text-align: center;
+    align-content: end;
+    margin-right: 20%;
+    margin-bottom: 60px;
+    position: relative;
+}
+#produto009:hover .hoverGira {
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto009 {
+    background-image: url(img/product-9.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    grid-row: 4;
+    text-align: center;
+    align-content: end;
+    margin-right: 20%;
+    margin-bottom: 60px;
+    position: relative;
+}
+#produto010:hover .hoverGira {
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto010 {
+    background-image: url(img/product-10.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    grid-row: 5;
+    text-align: center;
+    align-content: end;
+    margin-right: 20%;
+    margin-bottom: 60px;
+    position: relative;
+}
+#produto011:hover .hoverGira {
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto011 {
+    background-image: url(img/product-11.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    grid-row: 5;
+    text-align: center;
+    align-content: end;
+    margin-right: 20%;
+    margin-bottom: 60px;
+    position: relative;
+}
+#produto012:hover .hoverGira {
+    z-index: 100;
+    transform: translateY(-400%);
+    opacity: 1;
+}
+#produto012 {
+    background-image: url(img/product-12.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    grid-row: 5;
+    text-align: center;
+    align-content: end;
+    margin-right: 20%;
+    margin-bottom: 60px;
+    position: relative;
+}
+#nums{
+    padding-left: 36%;
+    margin-bottom: 80px;
+    display: flex;
+}
+#nums>div{
+    border: solid 1px lightgray;
+    width: 30px;
+    margin-left: 20px;
+    text-align: center;
+    color: #b6b3b3;
+    transition: .3s;
+}
+#nums>div:hover{
+   cursor: pointer; 
+   background-color: #7fad39;
+   color: white;
+}
 
 #Rodapé {
     height: 40vh;
